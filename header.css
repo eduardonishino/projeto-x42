@@ -1,0 +1,36 @@
+header {
+
+    width: 85%;
+    position: absolute;
+}
+
+header .container img {
+    width: 42px;
+    height: 45px;
+    margin: 50px 0px 0px 100px;
+}
+
+header .container nav ul li {
+    list-style: none;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 30px;
+}
+
+header .container nav li a {
+    color: #fff;
+    font-size: 22px;
+    text-decoration: none;
+    margin-right: 30px;
+    font-weight: 300;
+    opacity: 0.9;
+}
+
+#user {
+    margin: 0;
+    margin-right: 60px;
+}
+
+ul.topnav li:last-child {
+    display: none;
+}

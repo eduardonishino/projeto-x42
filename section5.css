@@ -1,0 +1,97 @@
+
+section#secao5 img.m {
+    max-width: 100%;
+    width: 100%;
+    height: 387px;
+
+}
+
+section#secao5 .girl {
+    margin-left: -10%;
+    background-color: #fd6e74;
+    
+}
+
+section#secao5 .girl span {
+
+    display: flex;
+    padding-left: 110px;
+    margin-top: 20px;
+    opacity: 0.9;
+    color: #ffffff;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+
+}
+
+section#secao5 img.mm {
+    display: flex;
+    padding-left: 530px;
+    margin-top: -160px;
+    width: 15%;
+    height: 93px;
+}
+
+section#secao5 img {
+
+    width: 66px;
+    height: 66px;
+}
+
+section#secao5 .container {
+
+    display: flex;
+
+}
+
+section#secao5 .container .conjunto {
+    display: flex;
+    flex-direction: row;
+}
+
+section#secao5 .container .imagem {
+
+    display: flex;
+    flex-direction: column;
+    padding: 40px 30px 40px 60px;
+    margin-top: 40px;
+}
+
+section#secao5 .container .imagem .img1 {
+
+    margin-bottom: 70px;
+}
+
+section#secao5 .container .imagem .img2 {
+
+    margin-bottom: 60px;
+}
+
+section#secao5 .container .texto {
+
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-top: 70px;
+}
+
+section#secao5 .container .texto span {
+
+    margin-bottom: 10px;
+    opacity: 0.9;
+    color: #fb5c68;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+section#secao5 .container .texto small {
+
+    margin-bottom: 50px;
+    opacity: 0.9;
+    color: #88939e;
+    font-family: "Source Sans Pro";
+    font-size: 20px;
+    font-weight: 400;
+}

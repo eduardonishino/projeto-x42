@@ -1,0 +1,44 @@
+section#secao2 {
+
+    background-image: url(image/pictures.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    margin-top: -30px;
+}
+
+section#secao2 .container {
+
+    display: flex;
+    justify-content: space-between;
+    padding-top: 550px;
+}
+
+section#secao2 .container img {
+
+    width: 463px;
+    height: 255px;
+}
+
+section#secao2 .container .texto {
+
+    margin-top: 40px;
+}
+
+section#secao2 .container .texto h2 {
+
+    font-size: 36px;
+    font-weight: 400;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #4c4c51;
+    margin-bottom: 10px;
+}
+
+section#secao2 .container .texto p {
+
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #88939e;
+    opacity: 90%;
+}

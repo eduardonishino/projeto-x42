@@ -1,0 +1,38 @@
+section#secao2 .container img {
+    width: 363px;
+}
+
+section#secao2 .container .texto h2 {
+
+    font-size: 26px;
+}
+
+section#secao2 .container .texto p {
+
+    font-size: 18px;
+}
+
+section#secao5 .container {
+    flex-direction: column;
+}
+
+section#secao5 .container .girl {
+    width: 600px;
+    height: 400px;
+    margin: 0 auto;
+}
+
+section#secao7 .container {
+    flex-direction: column;
+    justify-content: center;
+}
+
+section#secao7 .container select {
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+section#secao7 .container .tabela {
+    margin: 0 auto;
+}

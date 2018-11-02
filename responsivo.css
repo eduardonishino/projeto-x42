@@ -1,0 +1,144 @@
+nav {
+    width: 80%;
+}
+
+ul.topnav li.icon {
+    float: right;
+    display: inline-block;
+}
+
+ul.topnav li .hidden {
+    display: none;
+}
+
+ul.topnav.responsive {
+    position: relative;
+    background: rgba(0, 0, 0, 0.5);
+    height: auto;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    line-height: 5px;
+    width: 100%;
+}
+
+ul.topnav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+ul.topnav.responsive li {
+    float: none;
+    display: inline;
+}
+
+ul.topnav.responsive li a {
+    display: block;
+    text-align: left;
+    line-height: 30px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+ul.topnav li.icon {
+    float: right;
+    /*O ícone será exibido ao lado direito*/
+    display: inline-block;
+}
+
+
+section#secao2 .container {
+   flex-direction: column-reverse;
+    text-align: center;
+}
+
+section#secao2 .container img {
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 120px;
+}
+
+section#secao2 .container .texto {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+section#secao2 .container .texto h2 {
+
+    font-size: 26px;
+}
+
+section#secao2 .container .texto p {
+
+    font-size: 18px;
+}
+
+.dados {
+    flex-direction: column;
+    margin-top: 600px;
+}
+
+.dados .numeros {
+    margin-bottom: 30px;
+}
+
+.dados hr {
+    display: none;
+}
+
+section#secao5 .container {
+    flex-direction: column;
+}
+
+section#secao5 .container .girl {
+    width: 100%;
+    height: 300px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+section#secao5 .container .imagem .img2{
+    margin-top: 120px;
+    
+}
+
+section#secao5 .container .imagem .img3{
+    margin-top: 60px;
+    
+}
+
+section#secao6 .container select {
+    width: 300px;
+}
+
+section#secao6 .container span {
+    width: 300px;
+}
+
+section#secao7 .container {
+   
+    margin-top: 60px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+section#secao7 .container select {
+   
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+section#secao7 .container .tabela {
+    margin: 0 auto;
+}
+
+section#secao7 .tabela table th,
+td {
+    padding-right: 30px;
+}
+
+
+footer .container form {
+    font-size: 18px;
+}
+

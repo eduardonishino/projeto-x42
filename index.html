@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width:device=width, initial-scale=1">
+    <title>Projeto x42</title>
+
+    <link rel="stylesheet" href="normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="principal.css">
+    <link rel='stylesheet' media='screen and (min-width: 640px) and (max-width: 846px)' href="tablet.css" />
+    <link rel="stylesheet" media="screen and (max-width: 639px)" href="responsivo.css">
+
+    <!-- Script do menu Responsivo -->
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <img src="image/logo.png">
+            <nav>
+                <ul class="topnav">
+                    <li><a href="#secao5" class="hidden">Trips</a></li>
+                    <li><a href="#secao6" class="hidden">Messages</a></li>
+                    <li><a href="#" class="hidden">Help</a></li>
+                    <li><a class="hidden"><img src="image/usuario.png" id="user"></a></li>
+
+                    <!-- Botão do menu responsivo -->
+                    <li class="icon">
+                        <a href="javascript:void(0);" onclick="myFunction()">&#9776;</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="secao1">
+        <div class="container">
+            <div class="chamada">
+                <h1>Share your passion with the world.</h1>
+                <p>Create unique experiences around your city, and earn extra money <br/> by bringing others along.</p>
+                <button>Create an experience</button>
+            </div>
+        </div>
+    </section>
+    <section id="secao2">
+        <div class="container">
+            <div class="texto">
+                <h2>A sample of what great hosts do.</h2>
+                <p>Hosts are chefs, hikers, or just knowledgeable locals who want to show others little-known pockets of their community. They can host an <br> experience or multiple ones over the course of a few days.</p>
+            </div>
+            <img src="image/video.png">
+        </div>
+    </section>
+    <section id="secao3">
+        <div class="dados">
+            <div class="numeros">
+                <span>86k</span>
+                <small>experiences shared</small>
+            </div>
+            <hr>
+            <div class="numeros">
+                <span>156</span>
+                <small>cities available</small>
+            </div>
+            <hr>
+            <div class="numeros">
+                <span>$66</span>
+                <small>average price</small>
+            </div>
+            <hr>
+            <div class="numeros">
+                <span>22k</span>
+                <small>pictures taken</small>
+            </div>
+            <hr>
+            <div class="numeros">
+                <span>975</span>
+                <small>5 star ratings</small>
+            </div>
+        </div>
+    </section>
+    <section id="secao5">
+
+        <div class="container">
+
+            <div class="girl">
+                <img src="image/womannotice.png" class="m">
+            </div>
+
+            <div class="conjunto">
+                <div class="imagem">
+                    <img src="image/microphone.png" class="img1">
+                    <img src="image/etiqueta.png" class="img2">
+                    <img src="image/hands.png" class="img3">
+                </div>
+
+                <div class="texto">
+                    <span>Get more exposure</span>
+                    <small>Millions of travellers can find and<br> book your experience in an instant.</small>
+
+
+                    <span>Promote your brand</span>
+                    <small>Have a shareable profile with photos,<br> videos, and reviews.</small>
+
+
+                    <span>Meet locals like you</span>
+                    <small>Join a global community of hosts.<br> Connect through meetups & events.</small>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="secao6">
+        <div class="container">
+            <div class="texto">
+                <h3>Ready to host an experience in your city?</h3>
+                <p>Start by designing the experience you have in mind. We’ll guide you through each step. If <br>your experience meets the quality standards, you’ll hear more about what’s next.</p>
+
+
+                <select class="botao">
+                <option value="1">Select a city</option>
+                <option value="2">São Paulo</option>
+                <option value="3">Minas Gerais</option>
+             </select>
+
+                <span class="botao">Create an experience</span>
+
+            </div>
+
+        </div>
+    </section>
+    <section id="secao7">
+        <div class="container">
+            <div class="selecao">
+                <select>
+                        <option value="1">English</option>
+                    </select>
+                <select>
+                        <option value="1">EUR</option>
+                    </select>
+            </div>
+
+            <div class="tabela">
+
+                <table>
+                    <tr>
+                        <th>Airbnb</th>
+                        <th>Discover</th>
+                        <th>Hosting</th>
+                    </tr>
+                    <tr>
+                        <td>About us</td>
+                        <td>Trust & Safety</td>
+                        <td>Why Host</td>
+                    </tr>
+                    <tr>
+                        <td>Careers</td>
+                        <td>Travel Credit</td>
+                        <td>Hospitality</td>
+                    </tr>
+                    <tr>
+                        <td>Press</td>
+                        <td>Airbnb Citizen</td>
+                        <td>Responsible Hosting</td>
+                    </tr>
+                    <tr>
+                        <td>Policies</td>
+                        <td>Business Travel</td>
+                        <td>Community Center</td>
+                    </tr>
+                    <tr>
+                        <td>Help</td>
+                        <td>Guidebooks</td>
+                    </tr>
+                    <tr>
+                        <td>Diversity</td>
+                        <td>Airbnbmag</td>
+                    </tr>
+
+                </table>
+            </div>
+        </div>
+    </section>
+    <footer>
+
+        <div class="container">
+            <img src="image/logo2.png">
+
+            <form>
+                <span>Terms</span>
+                <span>Privacy</span>
+                <span>Site Map</span>
+            </form>
+
+        </div>
+    </footer>
+
+</body>
+</html>

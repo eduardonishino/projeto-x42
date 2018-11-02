@@ -1,0 +1,63 @@
+section#secao7 .container {
+
+    margin-top: 140px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+    margin-right: 10%;
+}
+
+section#secao7 .container select {
+
+    display: block;
+    width: 339px;
+    height: 60px;
+    margin-bottom: 20px;
+    border-radius: 2px;
+    border: 2px solid #dbdbdb;
+    opacity: 0.9;
+    color: #75808c;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    padding-left: 20px;
+}
+
+section#secao7 .container .tabela {
+
+    display: flex;
+    text-align: left;
+}
+
+section#secao7 .tabela table th,
+td {
+
+    padding-right: 100px;
+}
+
+section#secao7 .tabela table th:last-child,
+td:last-child {
+
+    padding-right: 0px;
+
+}
+
+section#secao7 .container .tabela th {
+
+    padding-bottom: 10px;
+    opacity: 0.9;
+    color: #fb5c68;
+    font-family: 'Source Sans Pro';
+    font-size: 22px;
+    font-weight: 700;
+}
+
+section#secao7 .container .tabela td {
+
+    opacity: 0.9;
+    color: #88939e;
+    font-family: "Source Sans Pro";
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 30px;
+}
